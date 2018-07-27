@@ -2,6 +2,10 @@ variable "name" {
   description = "Name of the Firewall rule"
 }
 
+variable "project" {
+  description = "Google Project ID"
+}
+
 variable "network" {
   description = "The name or self_link of the network to attach this firewall to"
 }

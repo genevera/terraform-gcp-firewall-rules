@@ -9,4 +9,5 @@ resource "google_compute_firewall" "fw-rule" {
   }
   target_tags   = ["${var.network}-${var.name}"]
   source_ranges = ["${var.source_ranges}"]
+  project = "${var.project_id}"
 }

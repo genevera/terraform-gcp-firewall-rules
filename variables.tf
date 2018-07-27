@@ -2,7 +2,7 @@ variable "name" {
   description = "Name of the Firewall rule"
 }
 
-variable "project" {
+variable "project_id" {
   description = "Google Project ID"
 }
 
